@@ -1,1 +1,1 @@
-Narwall
+Checks to see if a number is prime or not prime.
