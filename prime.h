@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main(){
+bool isprime(){
 	int num;
 	int denominator = 3;
 	printf("Enter a candidate for primeness\n");
@@ -15,7 +15,7 @@ int main(){
 	}
 	if (num == 2){
 		printf("2 is prime");
-		goto a;
+		return true
 	}
 
 	while (denominator < sqrt(num)){
@@ -24,12 +24,11 @@ int main(){
 			if(num%denominator == 0){
 
 				printf("%d is not prime, it is divisible by %d\n", num, denominator);
-				goto a;
+				return false
 			}
 			denominator += 2;
 
 	}
-	printf("%d is prime", num);
-	a:
+	return true
 	return EXIT_SUCCESS;
 }

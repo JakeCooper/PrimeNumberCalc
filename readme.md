@@ -1,3 +1,4 @@
-#What is this?
+#Project Depricated. 
+Moved into C-Headers.
 
-This utility simply checks if a number is prime or not.
+
