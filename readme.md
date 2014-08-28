@@ -1,1 +1,3 @@
-Checks to see if a number is prime or not prime.
+#What is this?
+
+This utility simply checks if a number is prime or not.
